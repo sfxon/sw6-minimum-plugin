@@ -1,0 +1,35 @@
+{
+    "name": "myfav/minimal",
+    "description": "Minimal plugin for shopware 6. This is the starting point for every shopware 6 plugin project.",
+      "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "autoload": {
+      "psr-4": {
+        "Myfav\\Obility\\": "src/"
+      }
+    },
+    "extra": {
+      "shopware-plugin-class": "Myfav\\Minimal\\MyfavMinimal",
+      "label": {
+        "de-DE": "Minimal Plugin",
+        "en-GB": "Minimal Plugin"
+      },
+          "description": {
+              "de-DE": "Minimal Plugin für Shopware 6. Das ist der Ausgangspunkt für jedes Shopware 6 Projekt.",
+              "en-GB": "Minimal plugin for shopware 6. This is the starting point for every shopware 6 plugin project."
+          },
+          "manufacturerLink": {
+                  "de-DE": "https://mindfav.com",
+                  "en-GB": "https://mindfav.com"
+          },
+          "supportLink": {
+                  "de-DE": "https://www.mindfav.com/impressum/",
+                  "en-GB": "https://www.mindfav.com/impressum/"
+          }
+    },
+    "require": {
+          "shopware/core": "~6.4",
+      "shopware/storefront": "~6.4"
+    }
+}
